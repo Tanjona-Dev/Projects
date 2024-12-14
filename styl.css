@@ -1,3 +1,60 @@
+.lien {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: flex-end;
+}
+
+a {
+    color: #242424;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Paragraphe {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    padding-top: 2%;
+    background-color: #1f2039;
+    color: white;
+    font-size: 1.1em;
+}
+
 h1 {
-    color: aquamarine;
+    font-size: 3.5em;
+    color: #a5b4fc;
+}
+
+h2 {
+    text-align: center;
+    padding: 4%;
+}
+
+.paysage {
+    display: grid;
+    grid-template-rows: 250px 250px;
+    justify-content: center;
+    gap: 13%;
+}
+
+.Photo {
+    height: 310px;
+    width: 310px;
+}
+
+.lien-footer {
+    display: flex;
+    padding-top: 2%;
+    gap: 3%;
+    justify-content: space-evenly;
+}
+
+.formulaire-acceuil {
+    margin-top: 10%;
+    padding-top: 8%;
+    background-color: #1f2039;
 }
