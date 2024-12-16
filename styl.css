@@ -1,137 +1,140 @@
-    .lien {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 5%;
-        justify-content: flex-end;
-    }
-    
-    a {
-        color: #242424;
-        text-decoration: none;
-    }
-    
-    a:hover {
-        text-decoration: underline;
-    }
-    
-    .Paragraphe {
-        display: flex;
-        gap: 3%;
-        justify-content: center;
-        padding-top: 2%;
-        background-color: #1f2039;
-        color: white;
-        font-size: 1.1em;
-    }
-    
-    .cta {
-        background: linear-gradient(180deg, #696484, #8788BA);
-        padding: 3%;
-        width: 30%;
-        border-radius: 50px;
-    }
-    
-    h1 {
-        font-size: 3.5em;
-        color: #a5b4fc;
-    }
-    
-    h2 {
-        text-align: center;
-        padding: 4%;
-    }
-    
-    h3 {
-        color: #a5b4fc;
-        text-align: center;
-        font-size: 30px;
-    }
-    
-    .paysage {
-        display: grid;
-        grid-template-rows: 250px 250px;
-        justify-content: center;
-        gap: 13%;
-    }
-    
-    .Photo {
-        height: 310px;
-        width: 310px;
-    }
-    
-    .lien-footer {
-        display: flex;
-        padding-top: 2%;
-        gap: 3%;
-        justify-content: space-evenly;
-    }
-    
-    .formulaire-acceuil {
-        margin-top: 10%;
-        padding-top: 3%;
-        background-color: #1f2039;
-        color: white;
-        text-align: center;
-        padding-bottom: 4%;
-    }
-    
-    .input {
-        width: 26%;
-        height: 30px;
-    }
-    
-    .input-message {
-        width: 53%;
-        height: 150px;
-    }
-    
-    label {
-        font-size: large;
-    }
-    
-    .bouton {
-        padding-top: 1%;
-        padding-left: 3%;
-        padding-bottom: 1%;
-        padding-right: 3%;
-        background: linear-gradient(180deg, #696484, #8788BA);
-        border-radius: 50px;
-        border: none;
-    }
-    
-    @media screen and (max-width:1200px) {
-        .Paragraphe {
-            display: flex;
-            flex-direction: column-reverse;
-            flex-wrap: wrap;
-            width: 93%;
-            text-align: center;
-        }
-        .cta {
-            justify-content: center;
-        }
-        .paysage {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            justify-content: center;
-            width: 90%;
-        }
-        .Photo {
-            width: 93%;
-        }
-        .lien {
-            flex-direction: column;
-            flex-wrap: wrap;
-            text-align: center;
-        }
-        .formulaire-acceuil {
-            padding: 1%;
-        }
-        * {
-            font-size: small;
-        }
-        .robi-photo {
-            width: 95%;
-        }
-    }
+                                                .lien {
+                                                    display: flex;
+                                                    flex-wrap: wrap;
+                                                    gap: 5%;
+                                                    justify-content: flex-end;
+                                                }
+                                                
+                                                a {
+                                                    color: #242424;
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                a:hover {
+                                                    text-decoration: underline;
+                                                }
+                                                
+                                                .Paragraphe {
+                                                    display: flex;
+                                                    gap: 3%;
+                                                    justify-content: center;
+                                                    padding-top: 2%;
+                                                    background-color: #1f2039;
+                                                    color: white;
+                                                    font-size: 1.1em;
+                                                }
+                                                
+                                                .cta {
+                                                    background: linear-gradient(180deg, #696484, #8788BA);
+                                                    padding: 3%;
+                                                    width: 30%;
+                                                    border-radius: 50px;
+                                                }
+                                                
+                                                h1 {
+                                                    font-size: 3.5em;
+                                                    color: #a5b4fc;
+                                                }
+                                                
+                                                h2 {
+                                                    text-align: center;
+                                                    padding: 4%;
+                                                }
+                                                
+                                                h3 {
+                                                    color: #a5b4fc;
+                                                    text-align: center;
+                                                    font-size: 30px;
+                                                }
+                                                
+                                                .paysage {
+                                                    display: grid;
+                                                    grid-template-rows: 250px 250px;
+                                                    justify-content: center;
+                                                    gap: 13%;
+                                                }
+                                                
+                                                .Photo {
+                                                    height: 310px;
+                                                    width: 310px;
+                                                }
+                                                
+                                                .lien-footer {
+                                                    display: flex;
+                                                    padding-top: 2%;
+                                                    gap: 3%;
+                                                    justify-content: space-evenly;
+                                                }
+                                                
+                                                .formulaire-acceuil {
+                                                    margin-top: 10%;
+                                                    padding-top: 3%;
+                                                    background-color: #1f2039;
+                                                    color: white;
+                                                    text-align: center;
+                                                    padding-bottom: 4%;
+                                                }
+                                                
+                                                .input {
+                                                    width: 26%;
+                                                    height: 30px;
+                                                }
+                                                
+                                                .input-message {
+                                                    width: 53%;
+                                                    height: 150px;
+                                                }
+                                                
+                                                label {
+                                                    font-size: large;
+                                                }
+                                                
+                                                .bouton {
+                                                    padding-top: 1%;
+                                                    padding-left: 3%;
+                                                    padding-bottom: 1%;
+                                                    padding-right: 3%;
+                                                    background: linear-gradient(180deg, #696484, #8788BA);
+                                                    border-radius: 50px;
+                                                    border: none;
+                                                }
+                                                
+                                                @media screen and (max-width:1200px) {
+                                                    .Paragraphe {
+                                                        display: flex;
+                                                        flex-direction: column-reverse;
+                                                        flex-wrap: wrap;
+                                                        width: 93%;
+                                                        text-align: center;
+                                                    }
+                                                    .cta {
+                                                        justify-content: center;
+                                                    }
+                                                    .paysage {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        flex-wrap: wrap;
+                                                        justify-content: center;
+                                                        width: 90%;
+                                                    }
+                                                    .Photo {
+                                                        width: 93%;
+                                                    }
+                                                    .lien {
+                                                        flex-direction: column;
+                                                        flex-wrap: wrap;
+                                                        text-align: center;
+                                                    }
+                                                    .formulaire-acceuil {
+                                                        padding: 1%;
+                                                    }
+                                                    * {
+                                                        font-size: small;
+                                                    }
+                                                    .robi-photo {
+                                                        width: 95%;
+                                                    }
+                                                    h2 {
+                                                        padding-top: 10%;
+                                                    }
+                                                }
