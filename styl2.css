@@ -1,0 +1,78 @@
+    .lien {
+        display: flex;
+        justify-content: flex-end;
+        gap: 2%;
+    }
+    
+    a {
+        color: #242424;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    .paragraphe {
+        display: flex;
+        gap: 2%;
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding-top: 2%;
+        background-color: #1f2039;
+        color: white;
+        font-size: 1.1em;
+    }
+    
+    .cta {
+        background: linear-gradient(180deg, #696484, #8788BA);
+        width: 37%;
+        padding: 2%;
+        text-align: center;
+        border-radius: 50px;
+    }
+    
+    .grid-photo-acceuil {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        gap: 1%;
+        justify-content: center;
+    }
+    
+    .Photo {
+        height: 200px;
+        width: 300px;
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .lien {
+            flex-direction: column;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .robi-photo {
+            width: 90%;
+            text-align: center;
+            margin-left: 4%;
+        }
+        .paragraphe {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .cta {
+            width: 90%;
+            margin-left: 2%;
+        }
+        .grid-photo-acceuil {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .Photo {
+            height: auto;
+            width: auto;
+            margin-bottom: 2%;
+        }
+    }
